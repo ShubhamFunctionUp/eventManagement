@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({
 
 
 // Establish connection with mongoose
-mongoose.connect("mongodb+srv://Shubh9638464483:bI1LiqgUI6ov0Jhb@cluster0.azzwg.mongodb.net/netflix?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://Shubh9638464483:bI1LiqgUI6ov0Jhb@cluster0.azzwg.mongodb.net/eventManagement?retryWrites=true&w=majority", {
         useNewUrlParser: true
     })
     .then(() => console.log("Mongodb is connected"))
