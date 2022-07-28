@@ -14,7 +14,7 @@ router.put('/updatePassword',UserController.updatePassword)
 // -------------------------Event------------------------------------------------------------------------
 
 router.post('/eventCreated',EventController.createEvent)
-
-
+router.put('/inviteToEvent',EventController.inviteToEvent)
+router.get('/getEvent',EventController.getEvent)
 
 module.exports = router
